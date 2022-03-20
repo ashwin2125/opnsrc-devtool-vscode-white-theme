@@ -2,13 +2,19 @@
     "name": "pure-white-theme",
     "displayName": "Pure White Theme",
     "description": "Absolute White Theme that's bright and nice on the eye during the day's work.",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "publisher": "ashwingopalsamy",
     "engines": {
         "vscode": "^1.65.0"
     },
     "categories": [
         "Themes"
     ],
+    "homepage": "https://github.com/ashwin2125/vscode-pure-white-theme/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ashwin2125/vscode-pure-white-theme"
+    },
     "contributes": {
         "themes": [
             {
@@ -17,5 +23,25 @@
                 "path": "./themes/Pure White Theme-color-theme.json"
             }
         ]
+    },
+    "icon": "icon.png",
+    "extensionKind": [
+        "ui",
+        "workspace"
+    ],
+    "keywords": [
+        "macos",
+        "white",
+        "pure white theme",
+        "only white",
+        "pure white",
+        "simple white",
+        "white theme"
+    ],
+    "capabilities": {
+        "untrustedWorkspaces": {
+            "supported": true
+        },
+        "virtualWorkspaces": true
     }
 }
