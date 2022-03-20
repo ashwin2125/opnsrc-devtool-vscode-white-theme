@@ -1,0 +1,21 @@
+{
+    "name": "pure-white-theme",
+    "displayName": "Pure White Theme",
+    "description": "Absolute White Theme that's bright and nice on the eye during the day's work.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pure White Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Pure White Theme-color-theme.json"
+            }
+        ]
+    }
+}
